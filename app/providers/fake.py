@@ -8,6 +8,6 @@ class FakeProvider(Provider):
             content="This is canned response",   
             tokens_in=0, 
             tokens_out=0, 
-            provider_name="Fake",
+            provider_name="fake",
             model=request.model
         )
